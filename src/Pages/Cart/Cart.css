@@ -1,0 +1,40 @@
+.cart {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    grid-template-columns: repeat(5, 1fr);
+  }
+  
+  .cart {
+    margin: 3px;
+    padding: 3px;
+  }
+  
+  .itemCart-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 10%;
+  }
+  
+  .quantity {
+    align-items: center;
+  }
+  
+  .itemCart-img p{
+    font-size: 0.5em;
+}
+.cart .card p{
+  font-size: 0.8em;
+}
+.cart .card .quantity{
+  text-align: center;
+}
+.cart .card h2{
+  cursor: pointer;
+}
+.cart .total{
+  text-align: right;
+  border-top: 1px solid #008CBA;
+  margin-top: 350px;
+}

@@ -1,0 +1,45 @@
+.homepage {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 20px;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .card img {
+    max-width: 50%;
+    height: auto;
+  }
+  
+  .card p {
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  
+  .card h3 {
+    margin: 10px 0;
+    font-size: 24px;
+  }
+  
+  .card button {
+    padding: 10px 20px;
+    background-color: #008CBA;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .card button:hover {
+    background-color: #005D7F;
+  }
